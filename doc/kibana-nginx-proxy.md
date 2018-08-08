@@ -14,7 +14,6 @@ sudo apt install nginx
 ```bash
 sudo sh -c "echo -n 'usernamehere:' >> /etc/nginx/.htpasswd"
 sudo sh -c "openssl passwd -apr1 >> /etc/nginx/.htpasswd"
-sudo nano /etc/nginx/.htpasswd 
 ```
 
 ## Configure Nginx
