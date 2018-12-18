@@ -13,4 +13,6 @@ PUT /buisness/building/110
 
 # see the structure of an index
 
-GET /buisness
+If we try to map another type (employee type to buiseness index), it is illegal in Elasticstack version 6.
+
+
