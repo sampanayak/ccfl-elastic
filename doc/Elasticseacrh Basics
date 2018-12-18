@@ -1,0 +1,16 @@
+#Create index in dev tool
+
+PUT /buisness/building/110
+{
+  "address": "206 S 13th St Suite 1000 Lincoln NE 68588",
+  "floors": "10th Floor",
+  "offices": "10",
+  "loc": {
+    "lat": 40.707519,
+    "lon": -74.008560
+  }
+}
+
+# see the structure of an index
+
+GET /buisness
