@@ -16,3 +16,36 @@ PUT /buisness/building/110
 If we try to map another type (employee type to buiseness index), it is illegal in Elasticstack version 6.
 
 
+#create a customer index in elastcisearch by specifing settings ane mappings in elastcisearch
+
+PUT /customer
+{
+  "mappings":{
+    "online": {
+      "properties": {
+        "gender": {
+          "type": "text",
+          "analyzer": "standard"
+        },
+        "age": {
+          "type": "integer"
+        },
+        "total_spent": {
+          "type": "float"
+        },
+        "is_new": {
+          "type": "boolean"
+        },
+        "name": {
+          "type": "text",
+          "analyzer": "standard"
+        }
+      }
+    }
+  },
+  
+  "settings": {
+    "number_of_shards": 2,
+    "number_of_replicas": 1
+  }
+}
