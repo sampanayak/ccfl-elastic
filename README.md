@@ -17,7 +17,7 @@ So we summerize the work as follow:
 
 • Data cleaning using Python programming language
 • Develop config file for each index
-•	Developing and optimizing Big data pipelines using Logstash. 
+•	Develop and optimize Big data pipelines using Logstash. 
 •	Generating Data Visualization and Dashboards using Kibana
 •	Analyzing data from heterogeneous data sources such as querying multiple tables from Oracle, PostgreSQL databases. 
 •	Indexing, analyzing unstructured data with Elasticsearch, Logstash and Kibana. 
