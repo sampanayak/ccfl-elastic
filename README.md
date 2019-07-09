@@ -8,7 +8,7 @@ Dashboard Features are:
 5- Operates in a secure computing environment
 
 Data is collected in .csv / excel files. We used Elasticsearch for data indexing, creating data pipeline and visualization.
-Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.
+Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. In the initial stage of this project we tried to create dashboards in Splunk software. We were able to migrate some dashboards from the above website using Splunk 6.6.3. Using Elasticsearch we are able to feed new data automatically. We use logstash for creating data pipeline by creating configuration file for each index. Then we use Kibana for data visualization and dashboards.
 
 •	Developing and optimizing Big data pipelines using Logstash. 
 •	Generating Data Visualization and Dashboards 
