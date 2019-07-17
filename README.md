@@ -16,11 +16,11 @@ Elasticsearch is a search engine based on the Lucene library. It provides a dist
 So we summerize the work as follow:
 
 • Data cleaning using Python programming language
-• Develop config file for each index
-•	Develop and optimize Big data pipelines using Logstash. 
-•	Generating Data Visualization and Dashboards using Kibana
-•	Analyzing data from heterogeneous data sources such as querying multiple tables from Oracle, PostgreSQL databases. 
-•	Indexing, analyzing unstructured data with Elasticsearch, Logstash and Kibana. 
+• Develop config file for each dataset to create index in Elasticsearch
+• Develop and optimize Big data pipelines using Logstash. 
+• Generating Data Visualization and Dashboards using Kibana
+• Analyzing data from heterogeneous data sources such as querying multiple tables from Oracle, PostgreSQL databases. 
+• Indexing, analyzing unstructured data with Elasticsearch, Logstash and Kibana. 
 • Querying indexed data in Dev tool for Data Integration and Aggregation 
 
 
