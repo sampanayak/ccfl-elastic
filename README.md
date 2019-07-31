@@ -27,4 +27,5 @@ So we summerize the work as follow:
 Adding Logo in the markdown
 
 https://discuss.elastic.co/t/uploading-images-in-kibana-dashboard/27999
+https://logz.io/blog/kibana-hacks/
 
