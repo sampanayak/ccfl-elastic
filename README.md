@@ -24,5 +24,7 @@ So we summerize the work as follow:
 • Querying indexed data in Dev tool for Data Integration and Aggregation 
 
 
+Adding Logo in the markdown
 
+https://discuss.elastic.co/t/uploading-images-in-kibana-dashboard/27999
 
