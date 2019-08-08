@@ -37,7 +37,7 @@ https://logz.io/blog/kibana-hacks/
 * Run the config file inside logstash folder under /usr/share/logstash
 * Command to run the config file : sudo bin/logstash -f configurationfilelocation. ,
    Example : sudo bin/logstash -f /home/snayak/ccfl-elastic/logstash/camp.config
-* Once the logstash file completly run it creat an index in Elasticsearch
-* To create visualization/dashboard we need to create index pattern at the Management tab in Elasticsearch
+* Once the configuration file completly runs, it creat an index in Elasticsearch. The new index can be found in Management tab in Elasticsearch
+* Create index pattern at the Management tab in Elasticsearch, at the configuration settings, click at the ****+Create Index Pattern**** In step1 enter the index name and go the next step open the time filter field name dropdown and select @timestamp /Date, then click ****Create index pattern****
 * Create visualization under visualize tab in the Elasticsearch and then combine all visualization to create Dashboards
 
