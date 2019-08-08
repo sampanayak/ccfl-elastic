@@ -40,5 +40,5 @@ https://logz.io/blog/kibana-hacks/
 * Once the configuration file completly runs, it creat an index in Elasticsearch. The new index can be found in Management tab in Elasticsearch
 * Create index pattern at the Management tab in Elasticsearch, at the configuration settings, click at the ****+Create Index Pattern**** In step1 enter the index name and go the next step open the time filter field name dropdown and select @timestamp /Date, then click ****Create index pattern****
 * To create visualization, please go to visualize tab in the Elasticsearch and then choose a chart style and select the index. Then save the visualization
-* In Dashboard tab, click on the ***+*** sign to add visualizations to the dashboard. Then save the dashboard by entering name in the Title bar and describe about the dahboard in the description box and then save it.
+* In Dashboard tab, click on the ****+**** sign to add visualizations to the dashboard. Then save the dashboard by entering name in the Title bar and describe about the dahboard in the description box and then save it.
 
