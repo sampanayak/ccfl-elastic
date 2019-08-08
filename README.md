@@ -1,3 +1,6 @@
+
+********Please go to the raw option for better readable format.*******
+
 Create data dashboards and visualizations for Nebraska Lifespan Respite Network program. (https://nrrs.ne.gov/respite/data/dashboard_index.php)
 Dashboard Features are:
 
@@ -29,7 +32,7 @@ Adding Logo in the markdown
 https://discuss.elastic.co/t/uploading-images-in-kibana-dashboard/27999
 https://logz.io/blog/kibana-hacks/
 
-Procedure to inject data to elastcisearch:
+Procedure to inject data to elastcisearch and create Dashboard:
 1- Process the data (Add Date column, Delete column, merge similar .csv files) then store the data file under ccfl-data folder in ccfl-elk.unl.edu server (/home/snayak/ccfl-data)
 2- Create logstash configuration file and store it in under logstash folder (/home/snayak/ccfl-elastic/logstash)
 3- Run the config file inside logstash folder under /usr/share/logstash
@@ -37,4 +40,5 @@ Procedure to inject data to elastcisearch:
    Example : sudo bin/logstash -f /home/snayak/ccfl-elastic/logstash/camp.config
 5- Once the logstash file completly run it creat an index in Elasticsearch
 6- To create visualization/dashboard we need to create index pattern at the Management tab in Elasticsearch
+7- Create visualization under visualize tab in the Elasticsearch and then combine all visualization to create Dashboards
 
