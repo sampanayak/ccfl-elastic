@@ -33,8 +33,8 @@ https://discuss.elastic.co/t/uploading-images-in-kibana-dashboard/27999
 https://logz.io/blog/kibana-hacks/
 
 # Procedure to inject data to elastcisearch and create Dashboard: #
-Markup 1- Process the data (Add Date column, Delete column, merge similar .csv files) then store the data file under ccfl-data folder in ccfl-elk.unl.edu server (/home/snayak/ccfl-data)
-2- Create logstash configuration file and store it in under logstash folder (/home/snayak/ccfl-elastic/logstash)
+* 1- Process the data (Add Date column, Delete column, merge similar .csv files) then store the data file under ccfl-data folder in ccfl-elk.unl.edu server (/home/snayak/ccfl-data)
+* 2- Create logstash configuration file and store it in under logstash folder (/home/snayak/ccfl-elastic/logstash)
 3- Run the config file inside logstash folder under /usr/share/logstash
 4- Command to run the config file : sudo bin/logstash -f configurationfilelocation
    Example : sudo bin/logstash -f /home/snayak/ccfl-elastic/logstash/camp.config
