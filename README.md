@@ -4,11 +4,11 @@
 # Create data dashboards and visualizations for Nebraska Lifespan Respite Network program.# (https://nrrs.ne.gov/respite/data/dashboard_index.php)
 Dashboard Features are:
 
-1- Centralized data
-2- Preserve historical data by type and year
-3- Normalize and process all data types using DHHS-approved business rules
-4- Collect and apply numerous value-added data elements to ensure consistency
-5- Operates in a secure computing environment
+* Centralized data
+* Preserve historical data by type and year
+* Normalize and process all data types using DHHS-approved business rules
+* Collect and apply numerous value-added data elements to ensure consistency
+* Operates in a secure computing environment
 
 Data is collected in .csv / excel files. We used Elasticsearch for data indexing, creating data pipeline and visualization.
 (https://www.elastic.co/). Elasticsearch is the heart of Elasticstack.
@@ -36,7 +36,7 @@ https://logz.io/blog/kibana-hacks/
 * Process the data (Add Date column, Delete column, merge similar .csv files) then store the data file under ccfl-data folder in ccfl-elk.unl.edu server (/home/snayak/ccfl-data)
 * Create logstash configuration file and store it in under logstash folder (/home/snayak/ccfl-elastic/logstash)
 * Run the config file inside logstash folder under /usr/share/logstash
-* Command to run the config file : sudo bin/logstash -f configurationfilelocation
+* Command to run the config file : sudo bin/logstash -f configurationfilelocation. ,
    Example : sudo bin/logstash -f /home/snayak/ccfl-elastic/logstash/camp.config
 * Once the logstash file completly run it creat an index in Elasticsearch
 * To create visualization/dashboard we need to create index pattern at the Management tab in Elasticsearch
