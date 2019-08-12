@@ -26,11 +26,6 @@ So we summerize the work as follow:
 * Querying indexed data in Dev tool for Data Integration and Aggregation 
 
 
-#Adding Logo in the markdown#
-
-https://discuss.elastic.co/t/uploading-images-in-kibana-dashboard/27999
-https://logz.io/blog/kibana-hacks/
-
 # Procedure for injecting data to Elastcisearch and create Dashboard: #
 * Process the data (Add Date column, Delete column, merge similar .csv files) then store the data file under ccfl-data folder in ccfl-elk.unl.edu server (/home/snayak/ccfl-data)
 * Create logstash configuration file and store it in under logstash folder (/home/snayak/ccfl-elastic/logstash)
@@ -41,4 +36,15 @@ https://logz.io/blog/kibana-hacks/
 * Create index pattern at the Management tab in Elasticsearch, at the configuration settings, click at the ****+Create Index Pattern**** In step1 enter the index name and go the next step open the time filter field name dropdown and select @timestamp /Date, then click ****Create index pattern****
 * To create visualization, please go to visualize tab in the Elasticsearch and then choose a chart style and select the index. Then save the visualization
 * In Dashboard tab, click on the ****+**** sign to add visualizations to the dashboard. Then save the dashboard by entering name in the Title bar and describe about the dahboard in the description box and then save it.
+
+
+# Adding Logo in the Dashboard #
+* Encode the image Logo using any online tool. (https://www.base64-image.de/)
+* Choose markdown visualization in elastcisearch and then use below syntax
+* ![imageName](data:image/png;base64,{encodedImage})
+* Once the logo visualization is created add to the dashboard
+
+https://discuss.elastic.co/t/uploading-images-in-kibana-dashboard/27999
+https://logz.io/blog/kibana-hacks/
+https://logz.io/blog/kibana-hacks/
 
