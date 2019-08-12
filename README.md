@@ -41,7 +41,7 @@ So we summerize the work as follow:
 # Adding Logo in the Dashboard #
 * Encode the image Logo using any online tool. (https://www.base64-image.de/)
 * Choose markdown visualization in elastcisearch and then use below syntax 
-![imageName](data:image/png;base64,{encodedImage})
+***![imageName](data:image/png;base64,{encodedImage})***
 * Once the logo visualization is created add to the dashboard
 # Documentation Link #
 * https://discuss.elastic.co/t/uploading-images-in-kibana-dashboard/27999
