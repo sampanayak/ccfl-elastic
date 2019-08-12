@@ -25,6 +25,13 @@ So we summerize the work as follow:
 * Indexing, analyzing unstructured data with Elasticsearch, Logstash and Kibana. 
 * Querying indexed data in Dev tool for Data Integration and Aggregation 
 
+#List of Dashboards#
+
+1. NFOUS
+2. AGING
+3. SUBSIDY
+4. 
+
 
 # Procedure for injecting data to Elastcisearch and create Dashboard: #
 * Process the data (Add Date column, Delete column, merge similar .csv files) then store the data file under ccfl-data folder in ccfl-elk.unl.edu server (/home/snayak/ccfl-data)
