@@ -25,12 +25,17 @@ So we summerize the work as follow:
 * Indexing, analyzing unstructured data with Elasticsearch, Logstash and Kibana. 
 * Querying indexed data in Dev tool for Data Integration and Aggregation 
 
-#List of Dashboards#
+# List of Dashboards #
 
 1. NFOUS
 2. AGING
 3. SUBSIDY
-4. 
+4. CampKesem (Gender&Age)
+5. CampKesem (Has your child lost a parent or primary caregiver to cancer?)
+6. CampKesem (Participant's Primary and Secondary City)
+7. CampKesem ( Number of child attended CampKesem before)
+8. Medically Handicapped Children's Program (MHCP0 - Disabled Children's Program (DCP)
+**** Dashboard name starts with DB are for postgres database ***
 
 
 # Procedure for injecting data to Elastcisearch and create Dashboard: #
