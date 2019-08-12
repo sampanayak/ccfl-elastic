@@ -35,7 +35,7 @@ So we summerize the work as follow:
 6. CampKesem (Participant's Primary and Secondary City)
 7. CampKesem ( Number of child attended CampKesem before)
 8. Medically Handicapped Children's Program (MHCP0 - Disabled Children's Program (DCP)
-**** Dashboard name starts with DB are for postgres database ***
+9. **** Dashboard name starts with DB are for postgres database ***
 
 
 # Procedure for injecting data to Elastcisearch and create Dashboard: #
