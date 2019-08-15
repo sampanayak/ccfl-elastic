@@ -25,7 +25,7 @@ So we summerize the work as follow:
 * Indexing, analyzing unstructured data with Elasticsearch, Logstash and Kibana. 
 * Querying indexed data in Dev tool for Data Integration and Aggregation 
 
-# List of Dashboards #
+# List of Dashboards & Kibana Links #
 
 1. NFOUS (https://ccfl-elk.unl.edu/app/kibana#/dashboard/60970950-8890-11e9-b6fd-8d7acfd50b3e?_g=(refreshInterval%3A(display%3AOff%2Cpause%3A!f%2Cvalue%3A0)%2Ctime%3A(from%3A'2013-08-15T18%3A27%3A16.632Z'%2Cmode%3Aabsolute%2Cto%3A'2019-08-15T18%3A42%3A16.632Z')))
 2. AGING (https://ccfl-elk.unl.edu/app/kibana#/dashboard/64a41f90-b231-11e9-b6fd-8d7acfd50b3e?_g=(refreshInterval%3A(display%3AOff%2Cpause%3A!f%2Cvalue%3A0)%2Ctime%3A(from%3A'2013-08-15T18%3A27%3A16.632Z'%2Cmode%3Aabsolute%2Cto%3A'2019-08-15T18%3A42%3A16.632Z')))
