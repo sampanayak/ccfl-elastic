@@ -38,7 +38,7 @@ So we summerize the work as follow:
 9. **** Dashboard name starts with DB are for postgres database ***
 
 
-# Procedure for injecting data to Elastcisearch and create Dashboard: #
+# Procedure for ingesting data to Elastcisearch and create Dashboard: #
 * Process the data (Add Date column, Delete column, merge similar .csv files) then store the data file under ccfl-data folder in ccfl-elk.unl.edu server (/home/snayak/ccfl-data)
 * Create logstash configuration file and store it in under logstash folder (/home/snayak/ccfl-elastic/logstash)
 * Run the config file inside logstash folder under /usr/share/logstash
